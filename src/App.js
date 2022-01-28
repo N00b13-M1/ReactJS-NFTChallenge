@@ -24,14 +24,15 @@
 // - Weights: 300, 400, 600
 
 
-import React from 'react';
+import React, {Component} from 'react';
 import Card from './components/card/Card';
 
-class App extends React.Component {
+class App extends Component {
   render(){
     return (
-      <div className="bg-primary">
+      <div className="cont d-flex justify-content-center align-items-center p-5">
         <Card/>
+
       </div>
     );
   }
