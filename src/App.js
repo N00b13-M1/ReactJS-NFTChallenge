@@ -30,9 +30,8 @@ import Card from './components/card/Card';
 class App extends Component {
   render(){
     return (
-      <div className="cont d-flex justify-content-center align-items-center p-5">
+      <div className="cont d-lg-flex justify-content-lg-center align-items-lg-center p-lg-5">
         <Card/>
-
       </div>
     );
   }
